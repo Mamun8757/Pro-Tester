@@ -1,3 +1,5 @@
-.header{
-    background-color: aliceblue;
+.site-logo{
+    position: relative;
+    left: -20%;
+    font-size: 32px;
 }

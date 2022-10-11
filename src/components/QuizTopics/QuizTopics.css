@@ -1,0 +1,18 @@
+.topics img{
+    width: 300px;
+    height: auto;
+    border: 1px solid aliceblue;
+    
+}
+.topics{
+    margin: auto;
+}
+.card-items{
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+.card-items h2{
+    margin-left: 2px;
+    font-size: 22px;
+}
