@@ -6,6 +6,8 @@ import Statistics from './components/Statistics/Statistics';
 import Blogs from './components/Blogs/Blogs';
 import Main from './layouts/Main';
 
+
+
 function App() {
   const router = createBrowserRouter([
     {

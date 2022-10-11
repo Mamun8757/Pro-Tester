@@ -3,9 +3,10 @@ import React from 'react';
 const Topics = () => {
     return (
         <div>
-            <h3>This is Quiz Topics</h3>
+            <h2>This is topics</h2>
         </div>
     );
 };
 
 export default Topics;
+
