@@ -6,6 +6,7 @@ import Statistics from './components/Statistics/Statistics';
 import Blogs from './components/Blogs/Blogs';
 import Main from './layouts/Main';
 import Questions from './components/Questions/Questions';
+import Error from './components/Error/Error';
 
 
 
@@ -38,6 +39,10 @@ function App() {
           element: <Questions></Questions>,
           loader: ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
           
+        },
+        {
+          path: '/404/not-found',
+          element: <Error></Error>
         }
       ]
     }

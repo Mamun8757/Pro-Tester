@@ -1,5 +1,4 @@
 import React from 'react';
-
 const LoadQuestions = ({ item }) => {
     const {question, options} = item;
     return (
