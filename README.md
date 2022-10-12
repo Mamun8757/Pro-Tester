@@ -1,4 +1,4 @@
-## Quiz Crackers React App
+## Pro Tester React App
 ## Live Link
 ## Hosted by Netlify -> https://pro-tester.netlify.app/
 
