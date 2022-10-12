@@ -1,5 +1,6 @@
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis } from 'recharts';
+import './Statistics.css'
 const Statistics = () => {
     const dataCollection = [
         {
@@ -28,7 +29,10 @@ const Statistics = () => {
         }
     ]
     return (
-        <div>
+        <div className='stat-design'>
+            <div>
+                <h2 className='py-8 text-2xl'>Rechart between Topics vs Number of questions</h2>
+            </div>
             <LineChart
             width={500}
             height={400}
